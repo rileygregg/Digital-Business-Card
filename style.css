@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    margin: 0;
+    background-color: #23252C;
+    display: flex;
+    justify-content: center
+
+}
+
+.container {
+    max-width: 320px;
+    height: fit-content;
+    margin: 44px auto;
+    background-color: #1A1B21;
+    border-radius: 0.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main--photo {
+    width: 100%;
+    /* height: 320px; */
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-bottom: 20px;
+}
+
+.main--name {
+    margin: 0px auto 5px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+    letter-spacing: 0.05rem;
+}
+
+.main--job_title {
+    margin: 0px auto 9px;
+    font-weight: 400;
+    font-size: 12.8px;
+    color: #F3BF99;  
+}
+
+.main--website {
+    margin: 0px auto 14px;
+    font-weight: 400;
+    font-size: 11px; 
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.main--button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-height: 34px;
+   width: 250px;
+   margin-bottom: 34px;
+   gap: 8px;
+       
+}
+
+.button--logo {
+    /* width: 16px; */
+}
+
+.button--title {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #374151;
+}
+
+.about--title,
+.about--info,
+.interests--title,
+.interests--info {
+    padding-inline: 35px;
+    margin-top: 0px;
+    
+}
+
+.about--title,
+.interests--title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #F5F5F5;
+    margin-bottom: 5px;
+    
+}
+
+.about--info,
+.interests--info {
+    font-weight: 400;
+    font-size: 11px;
+    color: #DCDCDC;
+    line-height: 150%;
+}
+
+.about--info {
+    margin-bottom: 17px;
+}
+
+.interests--info {
+    margin-bottom: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color:#161619;
+    height: 64px;
+}
+
+.footer-image {
+    width: 25px;
+}
