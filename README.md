@@ -1,11 +1,15 @@
-# cobc249618c60c2f282d6e3cc
+# Digital Business Card
+
+# What This Is
+
+This project is the first pro project for the React course.
 
 Quick start:
 
 ```
 $ yarn # npm install
 $ yarn build # npm run build
-````
+```
 
 ## Development
 
